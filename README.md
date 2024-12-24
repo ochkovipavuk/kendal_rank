@@ -73,6 +73,7 @@ result on my machine:
 - **check** - use scipy to check correctly result
 - **compare** - use sequance code to compare results
 - **complite** - force to compile .cpp files
+
 We can run only:
 ```
 python main.py
@@ -120,7 +121,7 @@ for (size_t i = 0; i < n; ++i) {
 ### Speedup Formula
 The speedup is calculated as **Sequential Time** / **Parallel Time**
 
-### My Example Speedup Calculation
+### Example Speedup Calculation
 - **Sequential Time**: 98.06 seconds
 - **Parallel Time**: 31.09 seconds
 - **Speedup**: 3.15
